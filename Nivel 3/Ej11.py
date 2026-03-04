@@ -1,6 +1,12 @@
 # Ejercicio 11
-nota = int(input("Digite su nota:"))
-if nota>= 60:
+while True:
+    try: 
+        nota = int(input("Digite su nota:"))
+        if   nota>= 60:
             print("El estudiante aprobó")
-else: 
-      print ("El estudiante No aprobó")
+        else: 
+            print ("El estudiante No aprobó")
+        break
+    except ValueError:
+        print("Error: Por favor ingrese un número entero para la nota.")
+
