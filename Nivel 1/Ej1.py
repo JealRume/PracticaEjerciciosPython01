@@ -1,3 +1,10 @@
 # Ejercicio 1
-name = input ("Username:")
-print (f"Hola, {name} Welcome!")
+
+while True:
+    try:
+        name = input ("Username:")
+        print (f"Hola, {name} Welcome!")
+
+    except ValueError: 
+        print ("Error: Por favor ingrese un nombre válido:")    
+    

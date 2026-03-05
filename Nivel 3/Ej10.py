@@ -5,6 +5,6 @@ while True:
             print("El usuario es mayor de edad")
         else:
             print("El usuario es menor de edad")
-        break
+        
     except ValueError:
         print("Error: Por favor ingrese un número entero para la edad.")

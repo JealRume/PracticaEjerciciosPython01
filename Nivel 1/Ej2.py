@@ -1,3 +1,8 @@
 # Ejercicio 2
-city = input ("Ciudad de nacimiento:")
-print (f"Eres de: {city}")
+while True: 
+    try:
+         city = input ("Ciudad de nacimiento:")
+         print (f"Eres de: {city}")
+        
+    except ValueError: 
+             print ("Error: Por favor ingrese una ciudad válida:")

@@ -10,7 +10,7 @@ while True:
             print("El mayor es el segundo numero")
         else:
             print("Los dos numeros son iguales")
-        break
+        
     except ValueError:
         print("Error: Por favor ingrese un número válido.")
 
